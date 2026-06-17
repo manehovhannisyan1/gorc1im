@@ -1,0 +1,61 @@
+.skill {
+
+    font-family: "Montserrat", sans-serif;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    padding: 60px 0;
+
+    h2 {
+
+        font-weight: 400;
+        margin: 10px 0px;
+        font-size: 24px;
+        line-height: 1.5;
+        color: white;
+
+    }
+
+    p {
+        margin: 10px 0;
+        font-size: 15px;
+        line-height: 1.5;
+        letter-spacing: 4px;
+        color: gray;
+    }
+
+
+    hr {
+        width: 150px;
+        color: white;
+
+    }
+
+
+    .progress {
+        margin: 20px 0;
+
+    }
+
+  
+
+    @include tabletmax {
+        width: 800px;
+
+    }
+
+    @include tabletmax1 {
+        width: 600px;
+
+    }
+
+    @include tabletmax2 {
+        width: 400px;
+
+    }
+
+    @include mobilemin {
+        width: 300px;
+
+    }
+}

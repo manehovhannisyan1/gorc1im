@@ -1,0 +1,117 @@
+.price {
+
+    font-family: "Montserrat", sans-serif;
+    width: 1000px;
+    padding: 20px !important;
+
+
+    margin: auto !important;
+    padding: 60px 0;
+
+    .all {
+        display: flex;
+
+        @include tabletmax1 {
+            flex-wrap: wrap !important;
+            gap: 20px;
+        }
+
+        .card {
+            margin: auto !important;
+            text-align: center;
+           
+
+
+
+            .card-body {
+
+                background: rgb(166, 164, 164);
+
+                h5 {
+                    font-size: 25px !important;
+
+                }
+
+
+            }
+
+
+        }
+
+        .list-group {
+            li {
+                font-size: 20px !important;
+            }
+        }
+
+
+
+
+        a {
+            color: white;
+            text-decoration: none;
+
+            background: gray;
+            padding: 5px;
+
+            &:hover {
+                background: rgb(209, 202, 202);
+            }
+
+
+        }
+
+
+
+
+
+    }
+
+    h2 {
+        font-weight: 400;
+        margin: 10px 0px;
+        font-size: 24px;
+        line-height: 1.5;
+        color: white;
+
+        @include tabletmax1 {
+            text-align: center;
+        }
+    }
+
+    hr {
+        width: 150px;
+        color: white;
+        padding: 10px 0;
+
+        @include tabletmax1 {
+           display: none;
+        }
+
+    }
+
+
+
+
+
+    @include tabletmax {
+        width: 800px;
+
+    }
+
+    @include tabletmax1 {
+        width: 600px;
+
+    }
+
+    @include tabletmax2 {
+        width: 400px;
+
+    }
+
+    @include mobilemin {
+        width: 300px;
+
+    }
+
+}

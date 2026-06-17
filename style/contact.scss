@@ -1,0 +1,66 @@
+.contact {
+
+    font-family: "Montserrat", sans-serif;
+    width: 1000px;
+    height: auto;
+
+    margin: auto !important;
+    padding: 60px 0;
+
+    h2 {
+        font-weight: 400;
+        margin: 10px 0px;
+        font-size: 24px;
+        line-height: 1.5;
+        color: white;
+
+        @include tabletmax1 {
+            text-align: center;
+        }
+    }
+
+    hr {
+        width: 150px;
+        color: white;
+        padding: 10px 0;
+
+        @include tabletmax1 {
+            display: none;
+        }
+    }
+
+    .info {
+        color: white;
+
+        @include tabletmax1 {
+            text-align: center;
+        }
+
+        a {
+            color: rgba(255, 255, 255, 0.37);
+        }
+    }
+
+
+    @include tabletmax {
+        width: 800px;
+
+    }
+
+    @include tabletmax1 {
+        width: 600px;
+
+
+    }
+
+    @include tabletmax2 {
+        width: 400px;
+
+    }
+
+    @include mobilemin {
+        width: 300px;
+
+    }
+
+}
