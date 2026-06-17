@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  -webkit-box-shadow: 0 0 5px 1px rgb(34, 34, 246);
+          box-shadow: 0 0 5px 1px rgb(34, 34, 246);
+  height: auto;
+  position: fixed;
+  font-family: "Montserrat", sans-serif;
+  z-index: 10000 !important;
+}
+header .box {
+  background: black;
+}
+header .box ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 60px;
+  margin: 0;
+  padding-left: 0;
+}
+header .box ul li {
+  list-style: none;
+}
+header .box ul li a {
+  text-decoration: none;
+  padding: 6px 10px;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+}
+header .box ul li a:hover {
+  background: white;
+  color: black;
+  -webkit-box-shadow: 0 0 5px 3px rgb(34, 34, 246);
+          box-shadow: 0 0 5px 3px rgb(34, 34, 246);
+}
+@media (max-width: 530px) {
+  header .box ul li a {
+    font-size: 15px;
+  }
+}
+
+main {
+  padding-top: 60px;
+  width: 100%;
+  height: auto;
+  background: black;
+}
+
+.mas1 {
+  text-align: center;
+  padding-top: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+@media (max-width: 1024px) {
+  .mas1 img {
+    width: 800px;
+    height: auto;
+  }
+}
+@media (max-width: 830px) {
+  .mas1 img {
+    width: 600px;
+    height: auto;
+  }
+}
+@media (max-width: 640px) {
+  .mas1 img {
+    width: 400px;
+    height: auto;
+  }
+}
+@media (max-width: 430px) {
+  .mas1 img {
+    width: 300px;
+    height: auto;
+  }
+}
+.mas1 h2 {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+}
+@media (max-width: 530px) {
+  .mas1 h2 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 430px) {
+  .mas1 h2 {
+    font-size: 30px;
+  }
+}
+.mas1 p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: white;
+}
+
+.name {
+  font-family: "Montserrat", sans-serif;
+  width: 1000px;
+  height: auto;
+  margin: auto !important;
+  padding: 60px 0;
+}
+.name h2 {
+  font-weight: 400;
+  margin: 10px 0px;
+  font-size: 24px;
+  line-height: 1.5;
+  color: white;
+}
+.name p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: gray;
+  padding: 10px 0;
+}
+.name hr {
+  width: 150px;
+  color: white;
+}
+@media (max-width: 1024px) {
+  .name {
+    width: 800px;
+  }
+}
+@media (max-width: 830px) {
+  .name {
+    width: 600px;
+  }
+}
+@media (max-width: 640px) {
+  .name {
+    width: 400px;
+  }
+}
+@media (max-width: 430px) {
+  .name {
+    width: 300px;
+  }
+}
+
+.skill {
+  font-family: "Montserrat", sans-serif;
+  width: 1000px;
+  height: auto;
+  margin: auto;
+  padding: 60px 0;
+}
+.skill h2 {
+  font-weight: 400;
+  margin: 10px 0px;
+  font-size: 24px;
+  line-height: 1.5;
+  color: white;
+}
+.skill p {
+  margin: 10px 0;
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 4px;
+  color: gray;
+}
+.skill hr {
+  width: 150px;
+  color: white;
+}
+.skill .progress {
+  margin: 20px 0;
+}
+@media (max-width: 1024px) {
+  .skill {
+    width: 800px;
+  }
+}
+@media (max-width: 830px) {
+  .skill {
+    width: 600px;
+  }
+}
+@media (max-width: 640px) {
+  .skill {
+    width: 400px;
+  }
+}
+@media (max-width: 430px) {
+  .skill {
+    width: 300px;
+  }
+}
+
+.price {
+  font-family: "Montserrat", sans-serif;
+  width: 1000px;
+  padding: 20px !important;
+  margin: auto !important;
+  padding: 60px 0;
+}
+.price .all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (max-width: 830px) {
+  .price .all {
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+    gap: 20px;
+  }
+}
+.price .all .card {
+  margin: auto !important;
+  text-align: center;
+}
+.price .all .card .card-body {
+  background: rgb(166, 164, 164);
+}
+.price .all .card .card-body h5 {
+  font-size: 25px !important;
+}
+.price .all .list-group li {
+  font-size: 20px !important;
+}
+.price .all a {
+  color: white;
+  text-decoration: none;
+  background: gray;
+  padding: 5px;
+}
+.price .all a:hover {
+  background: rgb(209, 202, 202);
+}
+.price h2 {
+  font-weight: 400;
+  margin: 10px 0px;
+  font-size: 24px;
+  line-height: 1.5;
+  color: white;
+}
+@media (max-width: 830px) {
+  .price h2 {
+    text-align: center;
+  }
+}
+.price hr {
+  width: 150px;
+  color: white;
+  padding: 10px 0;
+}
+@media (max-width: 830px) {
+  .price hr {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .price {
+    width: 800px;
+  }
+}
+@media (max-width: 830px) {
+  .price {
+    width: 600px;
+  }
+}
+@media (max-width: 640px) {
+  .price {
+    width: 400px;
+  }
+}
+@media (max-width: 430px) {
+  .price {
+    width: 300px;
+  }
+}
+
+.contact {
+  font-family: "Montserrat", sans-serif;
+  width: 1000px;
+  height: auto;
+  margin: auto !important;
+  padding: 60px 0;
+}
+.contact h2 {
+  font-weight: 400;
+  margin: 10px 0px;
+  font-size: 24px;
+  line-height: 1.5;
+  color: white;
+}
+@media (max-width: 830px) {
+  .contact h2 {
+    text-align: center;
+  }
+}
+.contact hr {
+  width: 150px;
+  color: white;
+  padding: 10px 0;
+}
+@media (max-width: 830px) {
+  .contact hr {
+    display: none;
+  }
+}
+.contact .info {
+  color: white;
+}
+@media (max-width: 830px) {
+  .contact .info {
+    text-align: center;
+  }
+}
+.contact .info a {
+  color: rgba(255, 255, 255, 0.37);
+}
+@media (max-width: 1024px) {
+  .contact {
+    width: 800px;
+  }
+}
+@media (max-width: 830px) {
+  .contact {
+    width: 600px;
+  }
+}
+@media (max-width: 640px) {
+  .contact {
+    width: 400px;
+  }
+}
+@media (max-width: 430px) {
+  .contact {
+    width: 300px;
+  }
+}
+
+footer {
+  text-align: center;
+  background: gray;
+  height: 100px;
+  padding: 40px;
+}
+footer p {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
